@@ -17,6 +17,8 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Wearplay\BrandBundle\WearplayBrandBundle(),
+            new Wearplay\ProductBundle\WearplayProductBundle(),
+            new Wearplay\UserBundle\WearplayUserBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {;

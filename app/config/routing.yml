@@ -1,3 +1,11 @@
+wearplay_user:
+    resource: "@WearplayUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+wearplay_product:
+    resource: "@WearplayProductBundle/Resources/config/routing.yml"
+    prefix:   /
+
 WearplayBrandBundle:
         resource: "@WearplayBrandBundle/Resources/config/routing.yml"
         prefix:   /
